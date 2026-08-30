@@ -1,7 +1,7 @@
 {
-  "name": "Prime XD-bot",
+  "name": "Prime-bot",
   "version": "1.0.0",
-  "description": "Prime XD Bot - WhatsApp Pair Code Generator",
+  "description": "Prime Bot - WhatsApp Pair Code Generator",
   "main": "index.js",
   "type": "module",
   "engines": {
@@ -11,7 +11,7 @@
     "start": "node index.js",
     "build": "echo 'No build step required'"
   },
-  "author": "Soumik Dey",
+  "author": "Soumik",
   "license": "ISC",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.21",
