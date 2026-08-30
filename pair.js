@@ -78,13 +78,7 @@ router.get('/', async (req, res) => {
                             fileName: 'creds.json'
                         });
                         console.log("📄 Session file sent successfully");
-
-                        // Send video thumbnail with caption
-                        await primexdBot.sendMessage(userJid, {
-                            image: { url: 'caption: `🎬 *Prime XD Bot Full Setup Guide!*\n\n🚀 Bug Fixes + New Commands + Fast AI Chat\n📺 Watch Now: `
-                        });
-                        console.log("🎬 Video guide sent successfully");
-
+                        
                         // Send warning message
                         await                             primexdbot.sendMessage(userJid, {
                             text: `⚠️Do not share this file with anybody⚠️\n 
