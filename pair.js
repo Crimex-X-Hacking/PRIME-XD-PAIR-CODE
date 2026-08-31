@@ -68,12 +68,12 @@ router.get('/', async (req, res) => {
                     console.log("📱 Sending session file to user...");
                     
                     try {
-                        const sessionKnight = fs.readFileSync(dirs + '/creds.json');
+                        const sessionprimexd = fs.readFileSync(dirs + '/creds.json');
 
                         // Send session file to user
                         const userJid = jidNormalizedUser(num + '@s.whatsapp.net');
                         await PrimexdBot.sendMessage(userJid, {
-                            document: sessionKnight,
+                            document: sessionprimexd,
                             mimetype: 'application/json',
                             fileName: 'creds.json'
                         });
